@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 - 🔭 I’m currently working on Python 
 - 🌱 I’m currently learning Flutter
 - 👯 I’m looking to collaborate on Python
-- 💬 Ask me about Tech, Food, Games, Life
+- 💬 Ask me about Tech, Food, Games, Life, Songs
 - 📫 How to reach me: abubakark1998@gmail.com
 - ⚡ Fun fact: I can work perfectly even with 2 hrs sleep
 
