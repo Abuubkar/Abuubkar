@@ -8,7 +8,7 @@
 <p align="center">
 <a href="https://abuubkar.github.io"><b>Portfolio</b></a> ·
 <a href="https://linkedin.com/in/abubakar-khawaja-008483183"><b>LinkedIn</b></a> ·
-<a href="mailto:abuubkar.dev@gmail.com"><b>abuubkar.dev@gmail.com</b></a>
+<a href="mailto:abubakar-dev@hotmail.com"><b>abubakar-dev@hotmail.com</b></a>
 </p>
 
 ## 🏢 Client work · Arbisoft, 2021–2026
