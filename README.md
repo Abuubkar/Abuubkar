@@ -69,7 +69,7 @@ Trip planner for truck drivers: route map, every legally required stop, and auto
 <a href="https://lead-gen-liih.onrender.com"><img src="assets/projects/lead-finder.webp" width="400" alt="Lead Finder: ranked shortlist of businesses"></a>
 <h3>Lead Finder</h3>
 Finds small businesses in a trade and a city and ranks them as acquisition targets, naming the fact behind every point of the score.<br><br>
-<code>Python</code> <code>Docker</code> <code>Render</code><br><br>
+<code>Python</code> <code>FastAPI</code> <code>HTMX</code> <code>Anthropic API</code><br><br>
 <a href="https://lead-gen-liih.onrender.com"><b>▶ Live</b></a> · <a href="https://github.com/Abuubkar/lead-gen">Code</a>
 </td>
 </tr>
@@ -100,8 +100,8 @@ Mobile app for food delivery and food reviews, backed by a restaurant-owned deli
 
 | | Product | Built with | |
 |:-:|:--|:--|:--|
-| <a href="https://abuubkar.github.io/decision-log/"><img src="assets/projects/decision-log.webp" width="160" alt="Decision Log"></a> | **Decision Log**<br>What a team decided, why, and whether it still holds | TypeScript · Vite | [Live](https://abuubkar.github.io/decision-log/) · [Code](https://github.com/Abuubkar/decision-log) |
-| <a href="https://execil.net/"><img src="assets/projects/execil.webp" width="160" alt="Execil landing page"></a> | **Execil**<br>Medical billing / RCM marketing site | TypeScript · Vite | [Live](https://execil.net/) · [Code](https://github.com/Abuubkar/execil) |
+| <a href="https://abuubkar.github.io/decision-log/"><img src="assets/projects/decision-log.webp" width="160" alt="Decision Log"></a> | **Decision Log**<br>What a team decided, why, and whether it still holds | React · TypeScript · StyleX | [Live](https://abuubkar.github.io/decision-log/) · [Code](https://github.com/Abuubkar/decision-log) |
+| <a href="https://execil.net/"><img src="assets/projects/execil.webp" width="160" alt="Execil landing page"></a> | **Execil**<br>Medical billing / RCM marketing site | TanStack Start · Cloudflare Workers · StyleX | [Live](https://execil.net/) · [Code](https://github.com/Abuubkar/execil) |
 
 **Tools & experiments:**
 [resume-toolkit](https://github.com/Abuubkar/resume-toolkit) (job-specific, provenance-checked resumes) ·
