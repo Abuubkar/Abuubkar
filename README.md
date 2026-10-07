@@ -102,6 +102,7 @@ Mobile app for food delivery and food reviews, backed by a restaurant-owned deli
 |:-:|:--|:--|:--|
 | <a href="https://abuubkar.github.io/decision-log/"><img src="assets/projects/decision-log.webp" width="160" alt="Decision Log"></a> | **Decision Log**<br>What a team decided, why, and whether it still holds | React · TypeScript · StyleX | [Live](https://abuubkar.github.io/decision-log/) · [Code](https://github.com/Abuubkar/decision-log) |
 | <a href="https://execil.net/"><img src="assets/projects/execil.webp" width="160" alt="Execil landing page"></a> | **Execil**<br>Medical billing / RCM marketing site | TanStack Start · Cloudflare Workers · StyleX | [Live](https://execil.net/) · [Code](https://github.com/Abuubkar/execil) |
+| <a href="https://britnova.net/"><img src="assets/projects/britnova.webp" width="160" alt="BritNova website"></a> | **BritNova**<br>Marketing site for an AI, cloud and web engineering agency | Astro · React · Tailwind · Framer Motion | [Live](https://britnova.net/) · [Code](https://github.com/britnova/britnova) |
 
 **Tools & experiments:**
 [resume-toolkit](https://github.com/Abuubkar/resume-toolkit) (job-specific, provenance-checked resumes) ·
