@@ -1,7 +1,7 @@
 <a href="https://abuubkar.github.io">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" width="100%" alt="Abubakar Khawaja, Senior Full-Stack Engineer">
+  <img src="assets/banner-light.svg" width="100%" alt="Abubakar Khawaja, Senior Full Stack Engineer">
 </picture>
 </a>
 
@@ -40,7 +40,7 @@ Career pathing · <a href="https://landit.com">landit.com</a>
 <td width="33%" valign="top">
 <a href="https://www.askimam.org/"><img src="assets/projects/askimam.webp" width="260" alt="AskImam"></a>
 <h3>AskImam</h3>
-Full-stack · <a href="https://www.askimam.org/">askimam.org</a>
+Full stack · <a href="https://www.askimam.org/">askimam.org</a>
 <ul>
 <li>Led the Django 2.x → 5.1 migration</li>
 <li>Admin dashboard and Google Analytics</li>
