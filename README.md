@@ -1,100 +1,132 @@
-# Hi, I'm Abubakar 👋
+<a href="https://abuubkar.github.io">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner-light.svg" width="100%" alt="Abubakar Khawaja, Senior Full-Stack Engineer">
+</picture>
+</a>
 
-## Senior Full-Stack Engineer | React · Next.js · Django · PostgreSQL · AWS
+<p align="center">
+<a href="https://abuubkar.github.io"><b>Portfolio</b></a> ·
+<a href="https://linkedin.com/in/abubakar-khawaja-008483183"><b>LinkedIn</b></a> ·
+<a href="mailto:abuubkar.dev@gmail.com"><b>abuubkar.dev@gmail.com</b></a>
+</p>
 
-abuubkar.dev@gmail.com  ·  +92-334-9858841<br/>
-[linkedin.com/in/abubakar-khawaja-008483183](linkedin.com/in/abubakar-khawaja-008483183)  ·  [github.com/Abuubkar](github.com/Abuubkar)  ·  [abuubkar.github.io](abuubkar.github.io)
+## 🛍️ Featured products
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://abuubkar.github.io/roadlog/"><img src="assets/projects/roadlog.webp" width="400" alt="RoadLog: route map, HOS timeline and daily logs"></a>
+<h3>RoadLog</h3>
+Trip planner for truck drivers: route map, every legally required stop, and auto-drawn ELD daily log sheets.<br><br>
+<code>Django</code> <code>React</code> <code>TypeScript</code> <code>CI/CD</code><br><br>
+<a href="https://abuubkar.github.io/roadlog/"><b>▶ Live</b></a> · <a href="https://github.com/Abuubkar/roadlog">Code</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://lead-gen-liih.onrender.com"><img src="assets/projects/lead-finder.webp" width="400" alt="Lead Finder: ranked shortlist of businesses"></a>
+<h3>Lead Finder</h3>
+Finds small businesses in a trade and a city and ranks them as acquisition targets, naming the fact behind every point of the score.<br><br>
+<code>Python</code> <code>Docker</code> <code>Render</code><br><br>
+<a href="https://lead-gen-liih.onrender.com"><b>▶ Live</b></a> · <a href="https://github.com/Abuubkar/lead-gen">Code</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://convo-lemon-three.vercel.app">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/projects/convo-dark.webp">
+  <img src="assets/projects/convo-light.webp" width="400" alt="Convo: real-time chat">
+</picture>
+</a>
+<h3>Convo</h3>
+Real-time chat over WebSockets, with JWT auth, user profiles and avatar uploads.<br><br>
+<code>React</code> <code>Django Channels</code> <code>Redis</code> <code>Tailwind</code><br><br>
+<a href="https://convo-lemon-three.vercel.app"><b>▶ Live</b></a> · <a href="https://github.com/Abuubkar/convo-web">Web</a> · <a href="https://github.com/Abuubkar/convo-backend">API</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://abuubkar.github.io/decision-log/"><img src="assets/projects/decision-log.webp" width="400" alt="Decision Log: list of team decisions"></a>
+<h3>Decision Log</h3>
+Records the decisions a team has already made: what was decided, why, when, and whether it still holds.<br><br>
+<code>TypeScript</code> <code>Vite</code><br><br>
+<a href="https://abuubkar.github.io/decision-log/"><b>▶ Live</b></a> · <a href="https://github.com/Abuubkar/decision-log">Code</a>
+</td>
+</tr>
+</table>
 
-## Professional Summary
-Full-Stack Engineer with 5+ years of experience building and shipping production software across React and Next.js on the frontend and Django with PostgreSQL on the backend. I take features from first idea to live deployment, and I care about the parts users never see: fast queries, clean APIs, and pipelines that hold up under real load. Over the past few years I have cut API response times by 30 to 70 percent through query tuning and indexing, built asynchronous Celery pipelines that process heavy background workloads, lifted automated test coverage from roughly 10 percent to over 60 percent, and trimmed deployment time by 40 percent by reworking CI/CD pipelines. I am comfortable owning UI architecture, REST API design, database performance, and payment and real-time integrations, and I enjoy mentoring teammates and keeping delivery steady inside Agile teams. I am looking for senior full-stack roles, including remote positions with international teams, where I can own meaningful problems end to end.
+## 📦 More I've built
 
----
+| | Product | Built with | |
+|:-:|:--|:--|:--|
+| <a href="https://github.com/Abuubkar/foodio-mobile"><img src="assets/projects/foodio.webp" width="160" alt="Foodio app screens"></a> | **Foodio**<br>Mobile app for food delivery and food reviews | React Native · NestJS · PostGIS | [Code](https://github.com/Abuubkar/foodio-mobile) |
+| <a href="https://execil.net/"><img src="assets/projects/execil.webp" width="160" alt="Execil landing page"></a> | **Execil**<br>Medical billing / RCM marketing site | TypeScript · Vite | [Live](https://execil.net/) · [Code](https://github.com/Abuubkar/execil) |
 
-## Core Skills
-**Languages:** JavaScript (ES6+), TypeScript, Python, SQL, HTML5, CSS3/SCSS
-**Frontend:** React.js, Next.js, Redux Toolkit, Tanstack Query, React Hook Form, Tailwind CSS, Material UI, SCSS, Storybook
-**Backend:** Django, Django REST Framework, REST API design, Celery (async/task queues), Django Channels
-**Databases:** PostgreSQL, SQL, Redis
-**Integrations:** Stripe (payments), SendGrid (email), WebSockets, JWT auth, Google Looker (BI), Google Analytics, Scrapy
-**Testing:** Jest, Cypress, Vitest, React Testing Library, Django Test Framework
-**DevOps:** GitLab CI/CD, GitHub Actions, Docker, Git, ESLint, Prettier, Husky
-**Cloud:** AWS, Netlify, Render, Nginx, Vercel
-**Foundations:** Data Structures & Algorithms, System Design, Performance Optimization, Agile/Scrum, Code Review, Mentoring
-**AI:** LLM Applications, Prompt Engineering, Context Engineering, RAG, Embeddings, Vector Databases, Vercel AI SDK
+**Tools & experiments:**
+[resume-toolkit](https://github.com/Abuubkar/resume-toolkit) (job-specific, provenance-checked resumes) ·
+[ai-github-toolkit](https://github.com/Abuubkar/ai-github-toolkit) (AI PR review as a GitHub Action) ·
+[Prototypes](https://abuubkar.github.io/prototypes/) (web products and sales demos)
 
----
+## 🏢 Client work · Arbisoft, 2021–2026
 
-## Experience
+<details>
+<summary><b>FixAlert</b> · maintenance-management platform · <a href="https://fixalert.io">fixalert.io</a></summary>
+<br>
+<img src="assets/projects/fixalert.webp" width="360" align="right" alt="FixAlert">
 
-### Senior Full-Stack Engineer | Arbisoft
-*2021 – 2026*
-*Full-stack delivery across multiple production products*
+- Sped up core APIs by removing N+1 queries and redundant lookups
+- Celery workflows for email notifications and bulk PDF generation
+- Reporting metrics, Stripe payments and a UI rework
 
-- Cut API response times by 30 to 70 percent across core endpoints by removing N+1 queries, reworking ORM access patterns, and adding the right database indexes on high-traffic paths.
-- Built and scaled asynchronous job processing with Celery to handle heavy background workloads, including bulk PDF generation and scheduled reporting jobs.
-- Built reporting and analytics systems that manage over 1000 assets, putting clear operational metrics in front of both internal teams and customers.
-- Brought deployment time down by 40 percent by reworking GitLab CI/CD pipelines with parallel jobs, layer caching, and end-to-end build automation.
-- Grew automated test coverage from around 10 percent to over 60 percent with Jest, Cypress, and Vitest, and set up quality gates with ESLint, Prettier, and Husky that cut production bugs by more than 25 percent.
-- Reworked frontend architecture to cut unnecessary re-renders by about 30 percent and improve page load times by 20 to 30 percent through memoization, code-splitting, and cleaner state management.
-- Designed and maintained REST APIs in Django REST Framework with sensible serialization, pagination, and permission layers used by several frontend clients.
-- Owned integrations end to end, including Stripe payments, SendGrid email, Google Analytics, and Looker BI dashboards across multiple products.
-- Added role-based access control and tightened authentication to protect sensitive endpoints and customer data.
-- Mentored two engineers, getting one comfortable with Git workflows and the other up to speed on Django, through regular code reviews and pair-programming sessions.
-- Worked closely with product and design in Agile ceremonies to scope features, estimate effort, and ship reliable releases on a predictable cadence.
-- Delivered features from architecture through implementation, testing, and deployment, staying responsible for quality from the first commit to production.
+`React` `Django` `Celery` `Stripe` `PostgreSQL`
+<br clear="right">
+</details>
 
-**Tech:** React.js, Next.js, Redux Toolkit, Django, Django REST Framework, PostgreSQL, Celery, Redis, GitLab CI/CD, Jest, Cypress, Vitest
+<details>
+<summary><b>Landit</b> · career-pathing platform · <a href="https://landit.com">landit.com</a></summary>
+<br>
+<img src="assets/projects/landit.webp" width="360" align="right" alt="Landit">
 
----
+- Led Material UI v4 → v5 and React Router v4 → v5 migrations
+- Storybook components and frontend testing in a team of 17
+- Looker BI visualizations and SendGrid email templates
 
-## Selected Projects
+`React` `Next.js` `Storybook` `Cypress` `Looker`
+<br clear="right">
+</details>
 
-**FixAlert, Maintenance-Management Platform** · *Full-Stack (React + Django) · Team of 10*
-- Sped up core APIs by removing N+1 queries and cutting redundant database lookups, so the app stayed responsive under heavy load.
-- Smoothed out asynchronous workflows with Celery and email notifications, and added bulk PDF generation for high-volume document output.
-- Built reporting metrics, wired up Stripe payments, and reworked the UI in an Agile environment to make the tool easier to use.
-*Tech: React.js, Django, Material UI, Celery, Stripe, Tanstack Query, Redux Toolkit, PostgreSQL*
+<details>
+<summary><b>AskImam</b> · full-stack · <a href="https://www.askimam.org/">askimam.org</a></summary>
+<br>
+<img src="assets/projects/askimam.webp" width="360" align="right" alt="AskImam">
 
-**Rumi, Full-Stack Application** · *React + Django · Team of 7*
-- Led frontend architectural refactoring and state optimization to reduce re-renders and improve perceived performance.
-- Authored Vitest test suites and enforced ESLint/Prettier pre-commit quality standards across the codebase.
-- Contributed to the GitLab CI pipeline, automating build, test, and deployment stages.
-*Tech: React.js, SCSS, Vite, Vitest, Redux Toolkit, Django*
+- Led the Django 2.x → 5.1 migration
+- Admin dashboard improvements and Google Analytics
+- Hardened authentication against common vulnerabilities
 
-**Convo, Real-Time Chat Platform** · *Full-Stack · Personal Project*
-- Developed an end-to-end real-time chat platform with a React + Vite SPA frontend and Django REST Framework backend.
-- Implemented live messaging over WebSockets using Django Channels with Redis for publish/subscribe management.
-- Designed JWT authentication, user profiles, and avatar uploads, and configured a complete automated CI/CD pipeline.
-*Tech: React.js, Vite, TypeScript, Tailwind CSS, Django REST Framework, Django Channels, Redis, WebSockets*
+`React` `Django` `Redux` `Vite`
+<br clear="right">
+</details>
 
-**AskImam, Full-Stack Application** · *React + Django · Team of 4*
-- Built features across the React frontend and Django backend, and enhanced the admin dashboard for content management.
-- Integrated Google Analytics and hardened authentication security against common vulnerabilities.
-- Led the Django 2.x to 5.1 migration, which noticeably improved stability and runtime performance.
-*Tech: React.js, Django, Material UI, SQL, Redux, Vite*
+<details>
+<summary><b>Rumi</b> · full-stack · React + Django</summary>
+<br>
 
-**Landit, Career-Pathing Platform** · *Frontend (React + Next.js) · Team of 17*
-- Built responsive UIs in a large Agile/Scrum cross-functional team, managing Storybook components and frontend testing.
-- Led library migrations (Material UI v4 to v5, React Router v4 to v5) with no regression downtime.
-- Built Looker BI visualizations and designed SendGrid email templates used across the product.
-*Tech: React.js, Next.js, Material UI, Redux, Jest, Cypress, Storybook, Looker, SendGrid*
+- Led a frontend architecture refactor to cut re-renders
+- Vitest suites and ESLint/Prettier pre-commit gates
+- Contributed to the GitLab CI build, test and deploy stages
 
-**Taiga, Open-Source Project-Management Fork** · *Full-Stack (AngularJS + Django) · Solo*
-- Built the Requestor and Feedback modules end-to-end across both frontend and backend.
-- Added new Django models and REST API endpoints with permission controls and role-based access.
-- Implemented reusable directives and controllers within a modular, maintainable architecture.
-*Tech: AngularJS, CoffeeScript, Jade, SCSS, Django*
+`React` `Vitest` `Redux Toolkit` `Django`
+</details>
 
----
+<details>
+<summary><b>Taiga</b> · open-source project-management fork · AngularJS + Django</summary>
+<br>
 
-## Certifications
+- Built the Requestor and Feedback modules end to end
+- New Django models and REST endpoints with role-based access
 
-- The AI Engineer Path — Scrimba (July 2026)
-- Prompt Engineering for Web Developers — Scrimba (July 2026)
+`AngularJS` `CoffeeScript` `Django`
+</details>
 
----
+## 🧰 Toolbox
 
-## Education
-**B.S. Software Engineering**<br/> Punjab University College of Information & Technology (PUCIT)  ·  GPA: 3.08
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,django,python,postgres,redis,docker,aws,tailwind,githubactions" alt="React, Next.js, TypeScript, Django, Python, PostgreSQL, Redis, Docker, AWS, Tailwind, GitHub Actions">

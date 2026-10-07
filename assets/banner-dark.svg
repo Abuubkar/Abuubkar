@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-label="Abubakar Khawaja, Senior Full-Stack Engineer">
+  <rect width="1200" height="270" rx="16" fill="#0d1117"/>
+  <rect x="0.5" y="0.5" width="1199" height="269" rx="16" fill="none" stroke="#30363d"/>
+  <text x="64" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#8b949e">0x00 // <tspan fill="#7d93ff">showroom</tspan></text>
+  <text x="64" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#e6edf3">Abubakar Khawaja</text>
+  <text x="64" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" fill="#8b949e">Senior Full-Stack Engineer. I build products and ship them.</text>
+  <rect x="64" y="196" width="63" height="30" rx="15" fill="#1b2350"/><text x="95.5" y="216" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c8d1ff">React</text><rect x="137" y="196" width="81" height="30" rx="15" fill="#1b2350"/><text x="177.5" y="216" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c8d1ff">Next.js</text><rect x="228" y="196" width="108" height="30" rx="15" fill="#1b2350"/><text x="282.0" y="216" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c8d1ff">TypeScript</text><rect x="346" y="196" width="72" height="30" rx="15" fill="#1b2350"/><text x="382.0" y="216" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c8d1ff">Django</text><rect x="428" y="196" width="108" height="30" rx="15" fill="#1b2350"/><text x="482.0" y="216" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c8d1ff">PostgreSQL</text><rect x="546" y="196" width="45" height="30" rx="15" fill="#1b2350"/><text x="568.5" y="216" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c8d1ff">AWS</text>
+  <g fill="none" stroke="#7d93ff" stroke-width="2" opacity="0.9">
+    <rect x="930" y="52" width="210" height="140" rx="10"/>
+    <line x1="930" y1="76" x2="1140" y2="76"/>
+    <rect x="950" y="92" width="80" height="80" rx="6" opacity="0.5"/>
+    <line x1="1046" y1="100" x2="1120" y2="100"/><line x1="1046" y1="118" x2="1104" y2="118"/><line x1="1046" y1="136" x2="1112" y2="136"/>
+  </g>
+  <circle cx="946" cy="64" r="4" fill="#7d93ff"/><circle cx="960" cy="64" r="4" fill="#7d93ff" opacity="0.6"/><circle cx="974" cy="64" r="4" fill="#7d93ff" opacity="0.3"/>
+</svg>
