@@ -18,7 +18,7 @@
 <td width="33%" valign="top">
 <a href="https://fixalert.io"><img src="assets/projects/fixalert.webp" width="260" alt="FixAlert"></a>
 <h3>FixAlert</h3>
-<sub>Maintenance platform · <a href="https://fixalert.io">fixalert.io</a></sub>
+Maintenance platform · <a href="https://fixalert.io">fixalert.io</a>
 <ul>
 <li>Removed N+1 queries on core APIs</li>
 <li>Celery pipelines for email and bulk PDFs</li>
@@ -29,7 +29,7 @@
 <td width="33%" valign="top">
 <a href="https://landit.com"><img src="assets/projects/landit.webp" width="260" alt="Landit"></a>
 <h3>Landit</h3>
-<sub>Career pathing · <a href="https://landit.com">landit.com</a></sub>
+Career pathing · <a href="https://landit.com">landit.com</a>
 <ul>
 <li>Led MUI v4 → v5 and React Router migrations</li>
 <li>Storybook components and frontend tests</li>
@@ -40,7 +40,7 @@
 <td width="33%" valign="top">
 <a href="https://www.askimam.org/"><img src="assets/projects/askimam.webp" width="260" alt="AskImam"></a>
 <h3>AskImam</h3>
-<sub>Full-stack · <a href="https://www.askimam.org/">askimam.org</a></sub>
+Full-stack · <a href="https://www.askimam.org/">askimam.org</a>
 <ul>
 <li>Led the Django 2.x → 5.1 migration</li>
 <li>Admin dashboard and Google Analytics</li>
