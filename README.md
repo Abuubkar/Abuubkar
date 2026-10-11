@@ -122,18 +122,20 @@ Marketing site for an AI, cloud and web engineering agency.<br><br>
 <a href="https://britnova.net/"><b>▶ Live</b></a>
 </td>
 <td width="33%" valign="top">
-<a href="https://abuubkar.github.io/prototypes/"><img src="assets/projects/prototypes.webp" width="260" alt="Prototypes: web products and sales demos"></a>
-<h3>Prototypes</h3>
-12 small software products, each built as a web product and as a one-screen sales demo.<br><br>
-<code>HTML</code> <code>GitHub&nbsp;Pages</code><br><br>
-<a href="https://abuubkar.github.io/prototypes/"><b>▶ Live</b></a>
+<a href="https://safaremubarik.com/"><img src="assets/projects/safar-e-mubarik.webp" width="260" alt="Safar-e-Mubarik: northern Pakistan tours"></a>
+<h3>Safar-e-Mubarik</h3>
+Tour operator site for group and private trips from Lahore to Hunza, Skardu and the north.<br><br>
+<code>Next.js</code> <code>TypeScript</code> <code>CSS&nbsp;Modules</code> <code>Zod</code><br><br>
+<a href="https://safaremubarik.com/"><b>▶ Live</b></a>
 </td>
 </tr>
 </table>
 
 **Tools & experiments:**
-[resume-toolkit](https://github.com/Abuubkar/resume-toolkit) (job-specific, provenance-checked resumes) ·
-[ai-github-toolkit](https://github.com/Abuubkar/ai-github-toolkit) (AI PR review as a GitHub Action)
+
+- [resume-toolkit](https://github.com/Abuubkar/resume-toolkit): job-specific, provenance-checked resumes
+- [ai-github-toolkit](https://github.com/Abuubkar/ai-github-toolkit): AI PR review as a GitHub Action
+- [Prototypes](https://abuubkar.github.io/prototypes/): web products and sales demos
 
 ## 🧰 Toolbox
 
