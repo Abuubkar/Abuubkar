@@ -13,123 +13,70 @@
 
 ## 🏢 Client work · Arbisoft, 2021–2026
 
-<table>
-<tr>
-<td width="33%" valign="top">
-<a href="https://fixalert.io"><img src="assets/projects/fixalert.webp" width="260" alt="FixAlert"></a>
-<h3>FixAlert</h3>
-Maintenance platform · <a href="https://fixalert.io">fixalert.io</a>
-<ul>
-<li>Removed N+1 queries on core APIs</li>
-<li>Celery pipelines for email and bulk PDFs</li>
-<li>Stripe payments and reporting metrics</li>
-</ul>
-<code>React</code> <code>Django</code> <code>Celery</code> <code>Stripe</code>
-</td>
-<td width="33%" valign="top">
-<a href="https://landit.com"><img src="assets/projects/landit.webp" width="260" alt="Landit"></a>
-<h3>Landit</h3>
-Career pathing · <a href="https://landit.com">landit.com</a>
-<ul>
-<li>Led MUI v4 → v5 and React Router migrations</li>
-<li>Storybook components and frontend tests</li>
-<li>Looker BI views and SendGrid templates</li>
-</ul>
-<code>React</code> <code>Next.js</code> <code>Storybook</code> <code>Cypress</code>
-</td>
-<td width="33%" valign="top">
-<a href="https://www.askimam.org/"><img src="assets/projects/askimam.webp" width="260" alt="AskImam"></a>
-<h3>AskImam</h3>
-Full stack · <a href="https://www.askimam.org/">askimam.org</a>
-<ul>
-<li>Led the Django 2.x → 5.1 migration</li>
-<li>Admin dashboard and Google Analytics</li>
-<li>Hardened authentication</li>
-</ul>
-<code>React</code> <code>Django</code> <code>Redux</code> <code>Vite</code>
-</td>
-</tr>
-</table>
+<!-- cards:client -->
+<p align="center">
+<a href="https://fixalert.io"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/fixalert-dark.webp">
+  <img src="assets/cards/fixalert-light.webp" width="260" alt="FixAlert: Maintenance platform · fixalert.io">
+</picture></a>
+<a href="https://landit.com"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/landit-dark.webp">
+  <img src="assets/cards/landit-light.webp" width="260" alt="Landit: Career pathing · landit.com">
+</picture></a>
+<a href="https://www.askimam.org/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/askimam-dark.webp">
+  <img src="assets/cards/askimam-light.webp" width="260" alt="AskImam: Full stack · askimam.org">
+</picture></a>
+</p>
+<!-- /cards:client -->
 
 **Also:** **Rumi** (React + Django): frontend refactor to cut re-renders, Vitest suites, GitLab CI ·
 **Taiga** (AngularJS + Django): built the Requestor and Feedback modules end to end
 
 ## 🛍️ Featured products
 
-<table>
-<tr>
-<td width="33%" valign="top">
-<a href="https://no-more-mafia.abubakarkhawaja.workers.dev"><img src="assets/projects/no-more-mafia.webp" width="260" alt="No More Mafia: case-file lobby"></a>
-<h3>No More Mafia</h3>
-Browser-based Mafia party game. One host opens a case and friends join with its number.<br><br>
-<code>React</code> <code>TypeScript</code> <code>SpacetimeDB</code> <code>Cloudflare</code><br><br>
-<a href="https://no-more-mafia.abubakarkhawaja.workers.dev"><b>▶ Live</b></a>
-</td>
-<td width="33%" valign="top">
-<a href="https://abuubkar.github.io/roadlog/"><img src="assets/projects/roadlog.webp" width="260" alt="RoadLog: trip summary, route map and HOS clocks"></a>
-<h3>RoadLog</h3>
-Trip planner for truck drivers: route map, required stops and auto-drawn ELD daily logs.<br><br>
-<code>Django</code> <code>React</code> <code>TypeScript</code><br><br>
-<a href="https://abuubkar.github.io/roadlog/"><b>▶ Live</b></a> · <a href="https://github.com/Abuubkar/roadlog">Code</a>
-</td>
-<td width="33%" valign="top">
-<a href="https://lead-gen-liih.onrender.com"><img src="assets/projects/lead-finder.webp" width="260" alt="Lead Finder: ranked shortlist of businesses"></a>
-<h3>Lead Finder</h3>
-Ranks small businesses as acquisition targets, naming the fact behind every point of the score.<br><br>
-<code>Python</code> <code>FastAPI</code> <code>HTMX</code> <code>Anthropic&nbsp;API</code><br><br>
-<a href="https://lead-gen-liih.onrender.com"><b>▶ Live</b></a> · <a href="https://github.com/Abuubkar/lead-gen">Code</a>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<a href="https://convo-lemon-three.vercel.app"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/projects/convo-dark.webp">
-  <img src="assets/projects/convo-light.webp" width="260" alt="Convo: real-time chat">
+<!-- cards:featured -->
+<p align="center">
+<a href="https://no-more-mafia.abubakarkhawaja.workers.dev"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/no-more-mafia-dark.webp">
+  <img src="assets/cards/no-more-mafia-light.webp" width="260" alt="No More Mafia: Browser-based Mafia party game. One host opens a case and friends join with its number.">
 </picture></a>
-<h3>Convo</h3>
-Real-time chat over WebSockets, with JWT auth, user profiles and avatar uploads.<br><br>
-<code>React</code> <code>Django&nbsp;Channels</code> <code>Redis</code><br><br>
-<a href="https://convo-lemon-three.vercel.app"><b>▶ Live</b></a> · <a href="https://github.com/Abuubkar/convo-web">Web</a> · <a href="https://github.com/Abuubkar/convo-backend">API</a>
-</td>
-<td width="33%" valign="top">
-<a href="https://github.com/Abuubkar/foodio-mobile"><img src="assets/projects/foodio.webp" width="260" alt="Foodio: home, restaurant and checkout screens"></a>
-<h3>Foodio</h3>
-Mobile app for food delivery and food reviews, backed by a restaurant-owned delivery API.<br><br>
-<code>React&nbsp;Native</code> <code>NestJS</code> <code>PostGIS</code><br><br>
-<a href="https://github.com/Abuubkar/foodio-mobile"><b>Code</b></a>
-</td>
-<td width="33%" valign="top">
-<a href="https://abuubkar.github.io/decision-log/"><img src="assets/projects/decision-log.webp" width="260" alt="Decision Log: list of team decisions"></a>
-<h3>Decision Log</h3>
-Records what a team decided, why, when, and whether it still holds.<br><br>
-<code>React</code> <code>TypeScript</code> <code>StyleX</code><br><br>
-<a href="https://abuubkar.github.io/decision-log/"><b>▶ Live</b></a> · <a href="https://github.com/Abuubkar/decision-log">Code</a>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<a href="https://execil.net/"><img src="assets/projects/execil.webp" width="260" alt="Execil landing page"></a>
-<h3>Execil</h3>
-Marketing site for a medical billing / RCM company.<br><br>
-<code>TanStack&nbsp;Start</code> <code>Cloudflare&nbsp;Workers</code> <code>StyleX</code><br><br>
-<a href="https://execil.net/"><b>▶ Live</b></a>
-</td>
-<td width="33%" valign="top">
-<a href="https://britnova.net/"><img src="assets/projects/britnova.webp" width="260" alt="BritNova website"></a>
-<h3>BritNova</h3>
-Marketing site for an AI, cloud and web engineering agency.<br><br>
-<code>Astro</code> <code>React</code> <code>Tailwind</code> <code>Framer&nbsp;Motion</code><br><br>
-<a href="https://britnova.net/"><b>▶ Live</b></a>
-</td>
-<td width="33%" valign="top">
-<a href="https://safaremubarik.com/"><img src="assets/projects/safar-e-mubarik.webp" width="260" alt="Safar-e-Mubarik: northern Pakistan tours"></a>
-<h3>Safar-e-Mubarik</h3>
-Tour operator site for group and private trips from Lahore to Hunza, Skardu and the north.<br><br>
-<code>Next.js</code> <code>TypeScript</code> <code>CSS&nbsp;Modules</code> <code>Zod</code><br><br>
-<a href="https://safaremubarik.com/"><b>▶ Live</b></a>
-</td>
-</tr>
-</table>
+<a href="https://abuubkar.github.io/roadlog/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/roadlog-dark.webp">
+  <img src="assets/cards/roadlog-light.webp" width="260" alt="RoadLog: Trip planner for truck drivers: route map, required stops and auto-drawn ELD daily logs.">
+</picture></a>
+<a href="https://lead-gen-liih.onrender.com"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/lead-finder-dark.webp">
+  <img src="assets/cards/lead-finder-light.webp" width="260" alt="Lead Finder: Ranks small businesses as acquisition targets, naming the fact behind every point of the score.">
+</picture></a>
+<a href="https://convo-lemon-three.vercel.app"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/convo-dark.webp">
+  <img src="assets/cards/convo-light.webp" width="260" alt="Convo: Real-time chat over WebSockets, with JWT auth, user profiles and avatar uploads.">
+</picture></a>
+<a href="https://github.com/Abuubkar/foodio-mobile"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/foodio-dark.webp">
+  <img src="assets/cards/foodio-light.webp" width="260" alt="Foodio: Mobile app for food delivery and food reviews, backed by a restaurant-owned delivery API.">
+</picture></a>
+<a href="https://abuubkar.github.io/decision-log/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/decision-log-dark.webp">
+  <img src="assets/cards/decision-log-light.webp" width="260" alt="Decision Log: Records what a team decided, why, when, and whether it still holds.">
+</picture></a>
+<a href="https://execil.net/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/execil-dark.webp">
+  <img src="assets/cards/execil-light.webp" width="260" alt="Execil: Marketing site for a medical billing / RCM company.">
+</picture></a>
+<a href="https://britnova.net/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/britnova-dark.webp">
+  <img src="assets/cards/britnova-light.webp" width="260" alt="BritNova: Marketing site for an AI, cloud and web engineering agency.">
+</picture></a>
+<a href="https://safaremubarik.com/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/safar-e-mubarik-dark.webp">
+  <img src="assets/cards/safar-e-mubarik-light.webp" width="260" alt="Safar-e-Mubarik: Tour operator site for group and private trips from Lahore to Hunza, Skardu and the north.">
+</picture></a>
+</p>
+
+<p align="center"><b>Source code:</b> <a href="https://github.com/Abuubkar/roadlog">RoadLog</a> · <a href="https://github.com/Abuubkar/lead-gen">Lead Finder</a> · <a href="https://github.com/Abuubkar/convo-web">Convo web</a> · <a href="https://github.com/Abuubkar/convo-backend">Convo API</a> · <a href="https://github.com/Abuubkar/decision-log">Decision Log</a></p>
+<!-- /cards:featured -->
 
 **Tools & experiments:**
 
