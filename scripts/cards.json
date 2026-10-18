@@ -6,8 +6,17 @@
       "image": "fixalert.webp",
       "href": "https://fixalert.io",
       "subtitle": "Maintenance platform · fixalert.io",
-      "bullets": ["Removed N+1 queries on core APIs", "Celery pipelines for email and bulk PDFs", "Stripe payments and reporting metrics"],
-      "chips": ["React", "Django", "Celery", "Stripe"]
+      "bullets": [
+        "Removed N+1 queries on core APIs",
+        "Celery pipelines for email and bulk PDFs",
+        "Stripe payments and reporting metrics"
+      ],
+      "chips": [
+        "React",
+        "Django",
+        "Celery",
+        "Stripe"
+      ]
     },
     {
       "slug": "landit",
@@ -15,8 +24,17 @@
       "image": "landit.webp",
       "href": "https://landit.com",
       "subtitle": "Career pathing · landit.com",
-      "bullets": ["Led MUI v4 → v5 and React Router migrations", "Storybook components and frontend tests", "Looker BI views and SendGrid templates"],
-      "chips": ["React", "Next.js", "Storybook", "Cypress"]
+      "bullets": [
+        "Led MUI v4 → v5 and React Router migrations",
+        "Storybook components and frontend tests",
+        "Looker BI views and SendGrid templates"
+      ],
+      "chips": [
+        "React",
+        "Next.js",
+        "Storybook",
+        "Cypress"
+      ]
     },
     {
       "slug": "askimam",
@@ -24,8 +42,17 @@
       "image": "askimam.webp",
       "href": "https://www.askimam.org/",
       "subtitle": "Full stack · askimam.org",
-      "bullets": ["Led the Django 2.x → 5.1 migration", "Admin dashboard and Google Analytics", "Hardened authentication"],
-      "chips": ["React", "Django", "Redux", "Vite"]
+      "bullets": [
+        "Led the Django 2.x → 5.1 migration",
+        "Admin dashboard and Google Analytics",
+        "Hardened authentication"
+      ],
+      "chips": [
+        "React",
+        "Django",
+        "Redux",
+        "Vite"
+      ]
     }
   ],
   "featured": [
@@ -35,25 +62,25 @@
       "image": "no-more-mafia.webp",
       "href": "https://no-more-mafia.abubakarkhawaja.workers.dev",
       "text": "Browser-based Mafia party game. One host opens a case and friends join with its number.",
-      "chips": ["React", "TypeScript", "SpacetimeDB", "Cloudflare"]
+      "chips": [
+        "React",
+        "TypeScript",
+        "SpacetimeDB",
+        "Cloudflare"
+      ]
     },
     {
-      "slug": "roadlog",
-      "title": "RoadLog",
-      "image": "roadlog.webp",
-      "href": "https://abuubkar.github.io/roadlog/",
-      "code": "https://github.com/Abuubkar/roadlog",
-      "text": "Trip planner for truck drivers: route map, required stops and auto-drawn ELD daily logs.",
-      "chips": ["Django", "React", "TypeScript"]
-    },
-    {
-      "slug": "lead-finder",
-      "title": "Lead Finder",
-      "image": "lead-finder.webp",
-      "href": "https://lead-gen-liih.onrender.com",
-      "code": "https://github.com/Abuubkar/lead-gen",
-      "text": "Ranks small businesses as acquisition targets, naming the fact behind every point of the score.",
-      "chips": ["Python", "FastAPI", "HTMX", "Anthropic API"]
+      "slug": "foodio",
+      "title": "Foodio",
+      "image": "foodio.webp",
+      "href": "https://github.com/Abuubkar/foodio-mobile",
+      "linkLabel": "Source code",
+      "text": "Mobile app for food delivery and food reviews, backed by a restaurant-owned delivery API.",
+      "chips": [
+        "React Native",
+        "NestJS",
+        "PostGIS"
+      ]
     },
     {
       "slug": "convo",
@@ -63,18 +90,83 @@
       "href": "https://convo-lemon-three.vercel.app",
       "code": "https://github.com/Abuubkar/convo-web",
       "codeLabel": "Convo web",
-      "extraCode": [{ "label": "Convo API", "href": "https://github.com/Abuubkar/convo-backend" }],
+      "extraCode": [
+        {
+          "label": "Convo API",
+          "href": "https://github.com/Abuubkar/convo-backend"
+        }
+      ],
       "text": "Real-time chat over WebSockets, with JWT auth, user profiles and avatar uploads.",
-      "chips": ["React", "Django Channels", "Redis"]
+      "chips": [
+        "React",
+        "Django Channels",
+        "Redis"
+      ]
     },
     {
-      "slug": "foodio",
-      "title": "Foodio",
-      "image": "foodio.webp",
-      "href": "https://github.com/Abuubkar/foodio-mobile",
-      "linkLabel": "Source code",
-      "text": "Mobile app for food delivery and food reviews, backed by a restaurant-owned delivery API.",
-      "chips": ["React Native", "NestJS", "PostGIS"]
+      "slug": "safar-e-mubarik",
+      "title": "Safar e Mubarik",
+      "image": "safar-e-mubarik.webp",
+      "href": "https://safaremubarik.com/",
+      "text": "Tour operator site for group and private trips from Lahore to Hunza, Skardu and the north.",
+      "chips": [
+        "Next.js",
+        "TypeScript",
+        "CSS Modules",
+        "Zod"
+      ]
+    },
+    {
+      "slug": "britnova",
+      "title": "BritNova",
+      "image": "britnova.webp",
+      "href": "https://britnova.net/",
+      "text": "Marketing site for an AI, cloud and web engineering agency.",
+      "chips": [
+        "Astro",
+        "React",
+        "Tailwind",
+        "Framer Motion"
+      ]
+    },
+    {
+      "slug": "execil",
+      "title": "Execil",
+      "image": "execil.webp",
+      "href": "https://execil.net/",
+      "text": "Marketing site for a medical billing / RCM company.",
+      "chips": [
+        "TanStack Start",
+        "Cloudflare Workers",
+        "StyleX"
+      ]
+    },
+    {
+      "slug": "roadlog",
+      "title": "RoadLog",
+      "image": "roadlog.webp",
+      "href": "https://abuubkar.github.io/roadlog/",
+      "code": "https://github.com/Abuubkar/roadlog",
+      "text": "Trip planner for truck drivers: route map, required stops and auto-drawn ELD daily logs.",
+      "chips": [
+        "Django",
+        "React",
+        "TypeScript"
+      ]
+    },
+    {
+      "slug": "lead-finder",
+      "title": "Lead Finder",
+      "image": "lead-finder.webp",
+      "href": "https://lead-gen-liih.onrender.com",
+      "code": "https://github.com/Abuubkar/lead-gen",
+      "text": "Ranks small businesses as acquisition targets, naming the fact behind every point of the score.",
+      "chips": [
+        "Python",
+        "FastAPI",
+        "HTMX",
+        "Anthropic API"
+      ]
     },
     {
       "slug": "decision-log",
@@ -83,31 +175,11 @@
       "href": "https://abuubkar.github.io/decision-log/",
       "code": "https://github.com/Abuubkar/decision-log",
       "text": "Records what a team decided, why, when, and whether it still holds.",
-      "chips": ["React", "TypeScript", "StyleX"]
-    },
-    {
-      "slug": "execil",
-      "title": "Execil",
-      "image": "execil.webp",
-      "href": "https://execil.net/",
-      "text": "Marketing site for a medical billing / RCM company.",
-      "chips": ["TanStack Start", "Cloudflare Workers", "StyleX"]
-    },
-    {
-      "slug": "britnova",
-      "title": "BritNova",
-      "image": "britnova.webp",
-      "href": "https://britnova.net/",
-      "text": "Marketing site for an AI, cloud and web engineering agency.",
-      "chips": ["Astro", "React", "Tailwind", "Framer Motion"]
-    },
-    {
-      "slug": "safar-e-mubarik",
-      "title": "Safar-e-Mubarik",
-      "image": "safar-e-mubarik.webp",
-      "href": "https://safaremubarik.com/",
-      "text": "Tour operator site for group and private trips from Lahore to Hunza, Skardu and the north.",
-      "chips": ["Next.js", "TypeScript", "CSS Modules", "Zod"]
+      "chips": [
+        "React",
+        "TypeScript",
+        "StyleX"
+      ]
     }
   ]
 }

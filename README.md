@@ -41,6 +41,26 @@
   <source media="(prefers-color-scheme: dark)" srcset="assets/cards/no-more-mafia-dark.webp">
   <img src="assets/cards/no-more-mafia-light.webp" width="260" alt="No More Mafia: Browser-based Mafia party game. One host opens a case and friends join with its number.">
 </picture></a>
+<a href="https://github.com/Abuubkar/foodio-mobile"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/foodio-dark.webp">
+  <img src="assets/cards/foodio-light.webp" width="260" alt="Foodio: Mobile app for food delivery and food reviews, backed by a restaurant-owned delivery API.">
+</picture></a>
+<a href="https://convo-lemon-three.vercel.app"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/convo-dark.webp">
+  <img src="assets/cards/convo-light.webp" width="260" alt="Convo: Real-time chat over WebSockets, with JWT auth, user profiles and avatar uploads.">
+</picture></a>
+<a href="https://safaremubarik.com/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/safar-e-mubarik-dark.webp">
+  <img src="assets/cards/safar-e-mubarik-light.webp" width="260" alt="Safar e Mubarik: Tour operator site for group and private trips from Lahore to Hunza, Skardu and the north.">
+</picture></a>
+<a href="https://britnova.net/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/britnova-dark.webp">
+  <img src="assets/cards/britnova-light.webp" width="260" alt="BritNova: Marketing site for an AI, cloud and web engineering agency.">
+</picture></a>
+<a href="https://execil.net/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/execil-dark.webp">
+  <img src="assets/cards/execil-light.webp" width="260" alt="Execil: Marketing site for a medical billing / RCM company.">
+</picture></a>
 <a href="https://abuubkar.github.io/roadlog/"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cards/roadlog-dark.webp">
   <img src="assets/cards/roadlog-light.webp" width="260" alt="RoadLog: Trip planner for truck drivers: route map, required stops and auto-drawn ELD daily logs.">
@@ -49,33 +69,13 @@
   <source media="(prefers-color-scheme: dark)" srcset="assets/cards/lead-finder-dark.webp">
   <img src="assets/cards/lead-finder-light.webp" width="260" alt="Lead Finder: Ranks small businesses as acquisition targets, naming the fact behind every point of the score.">
 </picture></a>
-<a href="https://convo-lemon-three.vercel.app"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/convo-dark.webp">
-  <img src="assets/cards/convo-light.webp" width="260" alt="Convo: Real-time chat over WebSockets, with JWT auth, user profiles and avatar uploads.">
-</picture></a>
-<a href="https://github.com/Abuubkar/foodio-mobile"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/foodio-dark.webp">
-  <img src="assets/cards/foodio-light.webp" width="260" alt="Foodio: Mobile app for food delivery and food reviews, backed by a restaurant-owned delivery API.">
-</picture></a>
 <a href="https://abuubkar.github.io/decision-log/"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cards/decision-log-dark.webp">
   <img src="assets/cards/decision-log-light.webp" width="260" alt="Decision Log: Records what a team decided, why, when, and whether it still holds.">
 </picture></a>
-<a href="https://execil.net/"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/execil-dark.webp">
-  <img src="assets/cards/execil-light.webp" width="260" alt="Execil: Marketing site for a medical billing / RCM company.">
-</picture></a>
-<a href="https://britnova.net/"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/britnova-dark.webp">
-  <img src="assets/cards/britnova-light.webp" width="260" alt="BritNova: Marketing site for an AI, cloud and web engineering agency.">
-</picture></a>
-<a href="https://safaremubarik.com/"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/safar-e-mubarik-dark.webp">
-  <img src="assets/cards/safar-e-mubarik-light.webp" width="260" alt="Safar-e-Mubarik: Tour operator site for group and private trips from Lahore to Hunza, Skardu and the north.">
-</picture></a>
 </p>
 
-<p align="center"><b>Source code:</b> <a href="https://github.com/Abuubkar/roadlog">RoadLog</a> · <a href="https://github.com/Abuubkar/lead-gen">Lead Finder</a> · <a href="https://github.com/Abuubkar/convo-web">Convo web</a> · <a href="https://github.com/Abuubkar/convo-backend">Convo API</a> · <a href="https://github.com/Abuubkar/decision-log">Decision Log</a></p>
+<p align="center"><b>Source code:</b> <a href="https://github.com/Abuubkar/convo-web">Convo web</a> · <a href="https://github.com/Abuubkar/convo-backend">Convo API</a> · <a href="https://github.com/Abuubkar/roadlog">RoadLog</a> · <a href="https://github.com/Abuubkar/lead-gen">Lead Finder</a> · <a href="https://github.com/Abuubkar/decision-log">Decision Log</a></p>
 <!-- /cards:featured -->
 
 **Tools & experiments:**
