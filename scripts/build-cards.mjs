@@ -5,10 +5,16 @@
 // Fixed-width inline images wrap like words instead: three per row on
 // desktop, one per row on a phone.
 //
+// File names carry a fingerprint of everything that shapes the card (its
+// data, screenshot, height and this script), so a changed card gets a new
+// URL and browsers cannot keep showing a cached old one. Unchanged cards
+// keep their name and file.
+//
 // Run from the repo root: node scripts/build-cards.mjs   (needs Google Chrome)
 
 import { spawn } from "node:child_process";
-import { mkdirSync, mkdtempSync, readFileSync, writeFileSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, unlinkSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
@@ -18,6 +24,16 @@ const CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 const CARD_WIDTH = 260; // CSS px as shown in the README; rendered at 2x
 const PORT = 9334;
 const data = JSON.parse(readFileSync(join(ROOT, "scripts/cards.json"), "utf8"));
+const CARDS_DIR = join(ROOT, "assets/cards");
+const SCRIPT = readFileSync(new URL(import.meta.url));
+const bySlug = Object.fromEntries([...data.client, ...data.featured].map((c) => [c.slug, c]));
+const fileNames = {}; // slug -> theme -> file name
+
+function fingerprint(c, theme, height) {
+  const h = createHash("sha256").update(SCRIPT).update(JSON.stringify(c)).update(`${theme}:${height}`);
+  for (const img of [c.image, c.imageDark].filter(Boolean)) h.update(readFileSync(join(ROOT, "assets/projects", img)));
+  return h.digest("hex").slice(0, 8);
+}
 
 const THEMES = {
   light: { bg: "#ffffff", border: "#d0d7de", ink: "#1f2328", muted: "#59636e", chip: "rgba(175,184,193,0.2)", link: "#0969da" },
@@ -86,7 +102,7 @@ const evaluate = async (expr) => (await send("Runtime.evaluate", { expression: e
 await send("Emulation.setDeviceMetricsOverride", { width: 1040, height: 900, deviceScaleFactor: 2, mobile: false });
 await send("Emulation.setDefaultBackgroundColorOverride", { color: { r: 0, g: 0, b: 0, a: 0 } });
 await send("Page.enable");
-mkdirSync(join(ROOT, "assets/cards"), { recursive: true });
+mkdirSync(CARDS_DIR, { recursive: true });
 const tmp = mkdtempSync(join(tmpdir(), "cards-page-"));
 
 for (const theme of Object.keys(THEMES)) {
@@ -105,19 +121,28 @@ for (const theme of Object.keys(THEMES)) {
     return [...document.querySelectorAll(".card")].map(c => { const r = c.getBoundingClientRect();
       return { slug: c.dataset.slug, x: r.x + scrollX, y: r.y + scrollY, width: r.width, height: r.height }; });
   })()`);
+  let written = 0;
   for (const r of rects) {
+    const name = `${r.slug}-${theme}-${fingerprint(bySlug[r.slug], theme, r.height)}.webp`;
+    (fileNames[r.slug] ??= {})[theme] = name;
+    if (existsSync(join(CARDS_DIR, name))) continue; // unchanged card: keep the existing file
     const { data: b64 } = await send("Page.captureScreenshot", { format: "webp", quality: 90, captureBeyondViewport: true,
       clip: { x: r.x, y: r.y, width: r.width, height: r.height, scale: 1 } });
-    writeFileSync(join(ROOT, "assets/cards", `${r.slug}-${theme}.webp`), Buffer.from(b64, "base64"));
+    writeFileSync(join(CARDS_DIR, name), Buffer.from(b64, "base64"));
+    written++;
   }
-  console.log(`${theme}: ${rects.length} cards`);
+  console.log(`${theme}: ${rects.length} cards, ${written} re-rendered`);
 }
 ws.close(); chrome.kill(); clearTimeout(watchdog);
 
+// Remove card images nothing points to any more.
+const keep = new Set(Object.values(fileNames).flatMap((t) => Object.values(t)));
+for (const f of readdirSync(CARDS_DIR)) if (f.endsWith(".webp") && !keep.has(f)) unlinkSync(join(CARDS_DIR, f));
+
 // --- rewrite the card blocks in README.md ---
 const cardLink = (c) => `<a href="${c.href}"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/${c.slug}-dark.webp">
-  <img src="assets/cards/${c.slug}-light.webp" width="${CARD_WIDTH}" alt="${esc(c.title)}: ${esc(c.text ?? c.subtitle)}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/${fileNames[c.slug].dark}">
+  <img src="assets/cards/${fileNames[c.slug].light}" width="${CARD_WIDTH}" alt="${esc(c.title)}: ${esc(c.text ?? c.subtitle)}">
 </picture></a>`;
 const block = (list) => `<p align="center">\n${list.map(cardLink).join("\n")}\n</p>`;
 const sourceLinks = data.featured.flatMap((c) => [
